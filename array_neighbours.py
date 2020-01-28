@@ -43,7 +43,7 @@ def find_horizontal_and_vertical_neighbours(arr):
 def find_diagonal_neighbours(arr):
     """
     This method takes 2d array and return list of all elements
-    with all horizontal and vertical neighbours
+    with all diagonal neighbours
 
     :param arr: 2d array
     :return: list of array elements with all neighbours
@@ -85,7 +85,7 @@ def find_diagonal_neighbours(arr):
 def find_all_neighbours(arr):
     """
     This method takes 2d array and return list of all elements
-    with all horizontal and vertical neighbours
+    with all neighbours
 
     :param arr: 2d array
     :return: list of array elements with all neighbours
@@ -134,16 +134,4 @@ def find_all_neighbours(arr):
                 "neighbors": new_neighbors})
 
     return neighbors
-
-
-if __name__ == '__main__':
-    # create array
-    arr = [['a', 'b', 'c'],
-           ['d', 'e', 'f'],
-           ['g', 'h', 'k']]
-
-    # find all neighbours
-    neighbors = find_all_neighbours(arr)
-    for n in  neighbors:
-        print(n)
 

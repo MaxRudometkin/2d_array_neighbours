@@ -1,8 +1,8 @@
 # 2d_array_neighbours
-This functions finding all neighbors for each element in 24 array(matrix)
+This functions finding all neighbors for each element in 2d array(matrix)
 
 
-## Array example (INPUT):
+#### Array example (INPUT):
 
 ```
 arr = [['a', 'b', 'c'],    
@@ -10,7 +10,7 @@ arr = [['a', 'b', 'c'],
        ['g', 'h', 'k']]  
 ```
 
-## find_all_neighors result (OUTPUT):
+#### find_all_neighors result (OUTPUT):
 ```
 [ {'index': 0, 'value': 'a', 'neighbors': ['b', 'e', 'd']}
   {'index': 1, 'value': 'b', 'neighbors': ['c', 'f', 'e', 'd', 'a']}

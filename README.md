@@ -2,16 +2,17 @@
 This functions finding all neighbors for each element in 24 array(matrix)
 
 
-Array example (INPUT):
+## Array example (INPUT):
 
-arr = [['a', 'b', 'c'],
-       ['d', 'e', 'f'],
-       ['g', 'h', 'k']]
+```
+arr = [['a', 'b', 'c'],    
+       ['d', 'e', 'f'],  
+       ['g', 'h', 'k']]  
+```
 
-
-find_all_neighors result (OUTPUT):
-
-[{'index': 0, 'value': 'a', 'neighbors': ['b', 'e', 'd']}
+## find_all_neighors result (OUTPUT):
+```
+[ {'index': 0, 'value': 'a', 'neighbors': ['b', 'e', 'd']}
   {'index': 1, 'value': 'b', 'neighbors': ['c', 'f', 'e', 'd', 'a']}
   {'index': 2, 'value': 'c', 'neighbors': ['f', 'e', 'b']}
   {'index': 3, 'value': 'd', 'neighbors': ['a', 'b', 'e', 'h', 'g']}
@@ -20,5 +21,5 @@ find_all_neighors result (OUTPUT):
   {'index': 6, 'value': 'g', 'neighbors': ['d', 'e', 'h']}
   {'index': 7, 'value': 'h', 'neighbors': ['d', 'e', 'f', 'k', 'g']}
   {'index': 8, 'value': 'k', 'neighbors': ['e', 'f', 'h']}]
-
+```
        
